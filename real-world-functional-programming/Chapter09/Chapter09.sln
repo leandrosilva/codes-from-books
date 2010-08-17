@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter09_FSharp", "Chapter09_FSharp\Chapter09_FSharp.fsproj", "{DFF101E3-DDF2-4F1E-AA71-D76D874765A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09_CSharp", "Chapter09_CSharp\Chapter09_CSharp.csproj", "{CF0B0FD8-DFAC-4930-AB80-0FD4D7A3DDF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF101E3-DDF2-4F1E-AA71-D76D874765A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF101E3-DDF2-4F1E-AA71-D76D874765A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF101E3-DDF2-4F1E-AA71-D76D874765A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF101E3-DDF2-4F1E-AA71-D76D874765A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0B0FD8-DFAC-4930-AB80-0FD4D7A3DDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0B0FD8-DFAC-4930-AB80-0FD4D7A3DDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0B0FD8-DFAC-4930-AB80-0FD4D7A3DDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0B0FD8-DFAC-4930-AB80-0FD4D7A3DDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Animations", "Animations", "{B84EF489-445C-4A34-BFAB-35C1E196D682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter15_CSharpAnimations", "Chapter15_CSharpAnimations\Chapter15_CSharpAnimations.csproj", "{AC28E405-5EB2-40C6-9596-218139058ABB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter15_FSharpAnimations", "Chapter15_FSharpAnimations\Chapter15_FSharpAnimations.fsproj", "{5F8DE13F-8DFB-4B57-A3D4-8C68498173D7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter15_FSharp", "Chapter15_FSharp\Chapter15_FSharp.fsproj", "{7069DAC2-EF59-49DE-BE7E-138902515CD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC28E405-5EB2-40C6-9596-218139058ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC28E405-5EB2-40C6-9596-218139058ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC28E405-5EB2-40C6-9596-218139058ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC28E405-5EB2-40C6-9596-218139058ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8DE13F-8DFB-4B57-A3D4-8C68498173D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8DE13F-8DFB-4B57-A3D4-8C68498173D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8DE13F-8DFB-4B57-A3D4-8C68498173D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7069DAC2-EF59-49DE-BE7E-138902515CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7069DAC2-EF59-49DE-BE7E-138902515CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7069DAC2-EF59-49DE-BE7E-138902515CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC28E405-5EB2-40C6-9596-218139058ABB} = {B84EF489-445C-4A34-BFAB-35C1E196D682}
+		{5F8DE13F-8DFB-4B57-A3D4-8C68498173D7} = {B84EF489-445C-4A34-BFAB-35C1E196D682}
+	EndGlobalSection
+EndGlobal
