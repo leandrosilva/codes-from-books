@@ -1,0 +1,22 @@
+﻿<Window x:Class="Microsoft.Practices.ParallelGuideSamples.ADash.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Adatum Dashboard" Height="339" Width="791">
+    <Grid>
+        <Button Content="Calculate" Height="41" HorizontalAlignment="Left" Margin="66,86,0,0" Name="calculateButton" VerticalAlignment="Top" Width="132" Command="{Binding Path=CalculateCommand}"  IsEnabled="{Binding Path=IsCalculateEnabled}" />
+        <TextBox Height="45" HorizontalAlignment="Left" Margin="66,161,0,0" Name="statusTextBox" VerticalAlignment="Top" Width="134" Text="{Binding Path=StatusTextBoxText,Mode=OneWay}" IsReadOnly="True" />
+        <Button Content="Quit" Height="42" HorizontalAlignment="Left" Margin="664,246,0,0" Name="quitButton" VerticalAlignment="Top" Width="93" Command="{Binding Path=CloseCommand}" />
+        <Button Content="Cancel" Height="20" HorizontalAlignment="Left" Margin="136,129,0,0" Name="cancelButton" VerticalAlignment="Top" Width="62" IsEnabled="{Binding Path=IsCancelEnabled}" Command="{Binding Path=CancelCommand}" />
+        <Button Content="Nyse" Height="23" HorizontalAlignment="Left" Margin="418,38,0,0" Name="NyseButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=NyseCommand}" />
+        <Button Content="Nasdaq" Height="23" HorizontalAlignment="Left" Margin="518,38,0,0" Name="NasdaqButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=NasdaqCommand}" />
+        <Button Content="Fed History" Height="23" HorizontalAlignment="Left" Margin="628,38,0,0" Name="FedButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=FedHistoricalCommand}" />
+        <Button Content="Merge" Height="23" HorizontalAlignment="Left" Margin="474,77,0,0" Name="MergeButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=MergedCommand}" />
+        <Button Content="Normalize" Height="23" HorizontalAlignment="Left" Margin="620,117,0,0" Name="NormalizeHistoryButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=NormalizedHistoricalCommand}" />
+        <Button Content="Normalize" Height="23" HorizontalAlignment="Left" Margin="474,117,0,0" Name="NormalizeButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=NormalizedCommand}" />
+        <Button Content="Analyze" Height="23" HorizontalAlignment="Left" Margin="620,149,0,0" Name="AnalyzeHistoryButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=AnalyzedHistoricalCommand}" />
+        <Button Content="Run Model" Height="23" HorizontalAlignment="Right" Margin="0,183,70,0" Name="CreateHistoricalModel" VerticalAlignment="Top" Width="83" Command="{Binding Path=ModeledHistoricalCommand}" />
+        <Button Content="Run Model" Height="23" HorizontalAlignment="Left" Margin="470,183,0,0" Name="CreateModel" VerticalAlignment="Top" Width="83" Command="{Binding Path=ModeledCommand}" />
+        <Button Content="Compare" Height="23" HorizontalAlignment="Left" Margin="558,219,0,0" Name="CompareButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=RecommendationCommand}" />
+        <Button Content="Analyze" Height="23" HorizontalAlignment="Left" Margin="474,149,0,0" Name="AnalyzeButton" VerticalAlignment="Top" Width="75" Command="{Binding Path=AnalyzedCommand}" />
+    </Grid>
+</Window>

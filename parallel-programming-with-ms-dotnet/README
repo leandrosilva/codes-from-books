@@ -1,0 +1,10 @@
+Parallel Programming with Microsoft .NET
+Design Patterns for Decomposition and Coordination on Multicore Architectures
+
+Colin Campbell, Ralph Johnson, Ade Miller, Stephen Toub
+
+http://msdn.microsoft.com/en-us/library/ff963553.aspx
+
+C# and F# sample codes available from:
+
+http://parallelpatterns.codeplex.com
