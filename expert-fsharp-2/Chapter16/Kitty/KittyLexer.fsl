@@ -1,0 +1,45 @@
+﻿{
+module KittyLexer
+
+open System
+open KittyParser
+open Microsoft.FSharp.Text.Lexing
+
+let lexeme = LexBuffer<_>.LexemeString
+
+let ids = [ ("while",   WHILE);
+            ("begin",   BEGIN);
+            ("end",     END);
+            ("do",      DO);
+            ("if",      IF);
+            ("then",    THEN);
+            ("else",    ELSE);
+            ("print",   PRINT);]
+
+let idsMap = Map.ofList ids
+
+let ident lexbuf tokenText =
+   if Map.containsKey tokenText idsMap then Map.find tokenText idsMap
+   else ID tokenText
+}
+
+let num        = ['0'-'9']+
+let alpha      = ['a'-'z' 'A'-'Z']
+let ident      = alpha+ (alpha | ['_' '$'])*
+let integer    = '-'? num
+let whitespace = ' ' | '\t'
+let newline    = '\n' | '\r' '\n'
+
+rule token = parse
+    | whitespace { token lexbuf }
+    | newline    { lexbuf.EndPos <- lexbuf.EndPos.NextLine; token lexbuf }
+    | "("        { LPAREN }
+    | ")"        { RPAREN }
+    | "+"        { PLUS }
+    | "-"        { MINUS }
+    | "*"        { TIMES }
+    | ";"        { SEMI }
+    | ":="       { ASSIGN }
+    | ident      { ident lexbuf (lexeme lexbuf) }
+    | integer    { INT (Int32.Parse(lexeme lexbuf)) }
+    | eof        { EOF }

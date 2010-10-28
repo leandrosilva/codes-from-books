@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 18" name="Dao">
+  <DataContextMoniker Name="/DaoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1eeba0e8-19e0-4b14-baac-3127236fafcc" absoluteBounds="9.75, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DaoDataContext/BuildVersion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7b054b0-c331-4400-89dc-7d1308dba01e" absoluteBounds="9.765, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="43c0c783-0cc1-4777-9fb8-6af8e18f7375" absoluteBounds="6.5, 4.125, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/DaoDataContext/SalesOrderHeader" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2e7a06f-13ae-458b-81a0-683321a6e0b9" absoluteBounds="6.515, 4.585, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="88b17aef-72aa-47bf-b87a-159d49c9edd8" absoluteBounds="9.75, 9.375, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/DaoDataContext/ErrorLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="700b998d-b147-4ea5-8160-16b29a453da5" absoluteBounds="9.765, 9.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5899b491-0ca0-4c46-86c1-5aed78ff5b7d" absoluteBounds="0.75, 5.375, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DaoDataContext/Address" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32fd1105-227b-4965-b020-ced1676b0360" absoluteBounds="0.765, 5.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="465adfda-feb9-4523-87ad-3b522a685e2b" absoluteBounds="3.75, 0.75, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/DaoDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3463f6ef-18b5-4c35-b66f-d37b442cc448" absoluteBounds="3.765, 1.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8e2a4ca-bc95-494d-9792-3fac9f9e96d4" absoluteBounds="3.5, 5.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DaoDataContext/CustomerAddress" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ab00806-2af8-4bb8-81ba-d5d4a23f62ab" absoluteBounds="3.515, 6.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed19e53c-2582-472a-8f42-4b54bc401540" absoluteBounds="6.5, 10.5, 2, 4.0785139973958309">
+      <DataClassMoniker Name="/DaoDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8ebea12-7fbf-4429-aee5-80392a976767" absoluteBounds="6.515, 10.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fca13668-7f7f-448b-ab22-caa00eda35ec" absoluteBounds="3.75, 10.5, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DaoDataContext/ProductCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="892778a9-29fd-455f-9179-da5bb5c1e5e7" absoluteBounds="3.765, 10.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19dc45db-d20e-49ba-a55e-14491973d618" absoluteBounds="3.75, 16.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DaoDataContext/ProductDescription" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0bd9560-4bfb-41a9-905a-23424f2eef71" absoluteBounds="3.765, 16.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f02ff55-192c-4960-bfbc-7986f9b87ecf" absoluteBounds="3.75, 13, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DaoDataContext/ProductModel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c305535-a458-42c2-b2ae-b3702bd4edf2" absoluteBounds="3.765, 13.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4d4860b-9d11-4eba-bdf3-b5820663ae9b" absoluteBounds="6.5, 16, 2, 1.7708968098958362">
+      <DataClassMoniker Name="/DaoDataContext/ProductModelProductDescription" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52d6521e-8646-4759-a1b5-319147841beb" absoluteBounds="6.515, 16.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="58a7b14d-46bb-43aa-b09f-b4c6b27ce3a0" absoluteBounds="9.25, 5.375, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DaoDataContext/SalesOrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e8d72f5-9886-4808-a903-3d0c396cd41a" absoluteBounds="9.265, 5.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.74924967447917); (6.5 : 7.74924967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Address/Address_SalesOrderHeader" />
+      <nodes>
+        <classShapeMoniker Id="5899b491-0ca0-4c46-86c1-5aed78ff5b7d" />
+        <classShapeMoniker Id="43c0c783-0cc1-4777-9fb8-6af8e18f7375" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.53125); (4.54166666666667 : 5.53125 : JumpStart); (4.70833333333333 : 5.53125 : JumpEnd); (6.5 : 5.53125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Address/Address_SalesOrderHeader1" />
+      <nodes>
+        <classShapeMoniker Id="5899b491-0ca0-4c46-86c1-5aed78ff5b7d" />
+        <classShapeMoniker Id="43c0c783-0cc1-4777-9fb8-6af8e18f7375" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 2.4374995); (7.5 : 2.4374995); (7.5 : 4.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Customer/Customer_SalesOrderHeader" />
+      <nodes>
+        <classShapeMoniker Id="465adfda-feb9-4523-87ad-3b522a685e2b" />
+        <classShapeMoniker Id="43c0c783-0cc1-4777-9fb8-6af8e18f7375" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.63544840494792); (3.5 : 6.63544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Address/Address_CustomerAddress" />
+      <nodes>
+        <classShapeMoniker Id="5899b491-0ca0-4c46-86c1-5aed78ff5b7d" />
+        <classShapeMoniker Id="a8e2a4ca-bc95-494d-9792-3fac9f9e96d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.625 : 4.4439111328125); (4.625 : 5.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Customer/Customer_CustomerAddress" />
+      <nodes>
+        <classShapeMoniker Id="465adfda-feb9-4523-87ad-3b522a685e2b" />
+        <classShapeMoniker Id="a8e2a4ca-bc95-494d-9792-3fac9f9e96d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 11.3854484049479); (6.5 : 11.3854484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/ProductCategory/ProductCategory_Product" />
+      <nodes>
+        <classShapeMoniker Id="fca13668-7f7f-448b-ab22-caa00eda35ec" />
+        <classShapeMoniker Id="ed19e53c-2582-472a-8f42-4b54bc401540" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.45552987154447 : 12.2708968098958); (4.45552987154447 : 12.5208968098958); (5.05849251552484 : 12.5208968098958); (5.05849251552484 : 12.2708968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DaoDataContext/ProductCategory/ProductCategory_ProductCategory" />
+      <nodes>
+        <classShapeMoniker Id="fca13668-7f7f-448b-ab22-caa00eda35ec" />
+        <classShapeMoniker Id="fca13668-7f7f-448b-ab22-caa00eda35ec" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 13.7892569986979); (6.5 : 13.7892569986979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/ProductModel/ProductModel_Product" />
+      <nodes>
+        <classShapeMoniker Id="9f02ff55-192c-4960-bfbc-7986f9b87ecf" />
+        <classShapeMoniker Id="ed19e53c-2582-472a-8f42-4b54bc401540" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 16.9142976888021); (6.5 : 16.9142976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/ProductDescription/ProductDescription_ProductModelProductDescription" />
+      <nodes>
+        <classShapeMoniker Id="19dc45db-d20e-49ba-a55e-14491973d618" />
+        <classShapeMoniker Id="a4d4860b-9d11-4eba-bdf3-b5820663ae9b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 14.7708968098958); (6.125 : 15.1458968098958); (6.125 : 16.425896844401); (6.5 : 16.425896844401)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/ProductModel/ProductModel_ProductModelProductDescription" />
+      <nodes>
+        <classShapeMoniker Id="9f02ff55-192c-4960-bfbc-7986f9b87ecf" />
+        <classShapeMoniker Id="a4d4860b-9d11-4eba-bdf3-b5820663ae9b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 13.2780582682292); (9.46875 : 13.2780582682292); (9.46875 : 7.9151025390625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/Product/Product_SalesOrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="ed19e53c-2582-472a-8f42-4b54bc401540" />
+        <classShapeMoniker Id="58a7b14d-46bb-43aa-b09f-b4c6b27ce3a0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 6.64505126953125); (9.25 : 6.64505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DaoDataContext/SalesOrderHeader/SalesOrderHeader_SalesOrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="43c0c783-0cc1-4777-9fb8-6af8e18f7375" />
+        <classShapeMoniker Id="58a7b14d-46bb-43aa-b09f-b4c6b27ce3a0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,21 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Button>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <StackPanel.LayoutTransform>
+                    <RotateTransform Angle="-45"/>
+                </StackPanel.LayoutTransform>
+                <TextBlock>This is a test</TextBlock>
+                <TextBox Name="Input">
+                    <TextBox.LayoutTransform>
+                        <RotateTransform Angle="90"/>
+                    </TextBox.LayoutTransform>
+                    Input here
+                </TextBox>
+                <Line X1="0" X2="50" Y1="0" Y2="50" Stroke="Black"/>
+            </StackPanel>
+        </Button>
+    </Canvas>
+</Window>

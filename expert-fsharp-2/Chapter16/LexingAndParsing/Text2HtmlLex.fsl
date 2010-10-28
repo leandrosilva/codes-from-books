@@ -1,0 +1,16 @@
+﻿{
+module Text2HtmlLex
+
+let lexeme = Lexing.LexBuffer<_>.LexemeString
+
+(* You can add your helper functions here *)
+}
+
+rule convertHtml chan = parse
+ | '<'    { fprintf chan "&lt;"
+            convertHtml chan lexbuf }
+ | '>'    { fprintf chan "&gt;"
+            convertHtml chan lexbuf }
+ | eof    { () }
+ | _      { fprintf chan "%s" (lexeme lexbuf)
+            convertHtml chan lexbuf }

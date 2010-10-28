@@ -1,0 +1,62 @@
+﻿{
+module SimpleTokensLex
+
+open System
+
+type token =
+    | INT    of int
+    | FLOAT  of float
+    | ID     of string
+    | STRING of string
+    | PLUS | MINUS | TIMES | HAT
+    | EOF
+
+let lexeme = Lexing.LexBuffer<_>.LexemeString
+}
+
+let num        = ['0'-'9']+
+let intNum     = '-'? num
+let floatNum   = '-'? num ('.' num)? (['e' 'E'] num)?
+let ident      = ['a'-'z']+
+let whitespace = ' ' | '\t'
+let newline    = '\n' | '\r' '\n'
+
+rule token = parse
+    | intNum     { INT (Convert.ToInt32 (lexeme lexbuf)) }
+    | floatNum   { FLOAT (Convert.ToDouble (lexeme lexbuf))  }
+    | ident      { ID (lexeme lexbuf)  }
+    | '+'        { PLUS }
+    | '-'        { MINUS }
+    | '*'        { TIMES }
+    | '^'        { HAT }
+    | whitespace { token lexbuf }
+    | newline    { lexbuf.EndPos <- lexbuf.EndPos.NextLine;
+                   token lexbuf }
+    | eof        { EOF }
+    | "(*"       { comment lexbuf; token lexbuf }
+    | "\""       { STRING (string lexbuf.StartPos "" lexbuf) }
+    | _          { failwithf "unrecognized input: '%s'" (lexeme lexbuf) }
+
+and comment = parse
+    | "(*"       { comment lexbuf; comment lexbuf  }
+    | "*)"       { () }
+    | "\n"       { lexbuf.EndPos <- lexbuf.EndPos.NextLine
+                   comment lexbuf }
+    | eof        { failwith "Unterminated comment" }
+    | _          { comment lexbuf }
+
+and string pos s = parse
+    | "\\" ('"' | 'n' | 'r' | 't')
+                  { let s' = s + (match lexeme lexbuf with
+                         | "\\\"" -> "\""
+                         | "\\n" ->  "\n"
+                         | "\\r" ->  "\r"
+                         | "\\t" ->  "\t"
+                         | "\\\\" -> "\\"
+                         | _ ->      "")
+                    string pos s' lexbuf }
+    | "\""         { s }
+    | "\n"         { lexbuf.EndPos <- lexbuf.EndPos.NextLine
+                     string pos (s + "\n") lexbuf }
+    | eof          { failwithf "end of file in string started at or near %A" pos }
+    | _            { string pos (s + (lexeme lexbuf)) lexbuf }

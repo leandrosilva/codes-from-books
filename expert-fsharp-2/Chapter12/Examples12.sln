@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PropositionalLogic", "PropositionalLogic\PropositionalLogic.fsproj", "{03B8E4E0-6D26-4DFF-97B3-F9649D71B23D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SymbolicDifferentiation", "SymbolicDifferentiation\SymbolicDifferentiation.fsproj", "{BA878FAD-2C0A-45AD-AED2-B07C17C7985D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B8E4E0-6D26-4DFF-97B3-F9649D71B23D}.Debug|x86.ActiveCfg = Debug|x86
+		{03B8E4E0-6D26-4DFF-97B3-F9649D71B23D}.Debug|x86.Build.0 = Debug|x86
+		{03B8E4E0-6D26-4DFF-97B3-F9649D71B23D}.Release|x86.ActiveCfg = Release|x86
+		{03B8E4E0-6D26-4DFF-97B3-F9649D71B23D}.Release|x86.Build.0 = Release|x86
+		{BA878FAD-2C0A-45AD-AED2-B07C17C7985D}.Debug|x86.ActiveCfg = Debug|x86
+		{BA878FAD-2C0A-45AD-AED2-B07C17C7985D}.Debug|x86.Build.0 = Debug|x86
+		{BA878FAD-2C0A-45AD-AED2-B07C17C7985D}.Release|x86.ActiveCfg = Release|x86
+		{BA878FAD-2C0A-45AD-AED2-B07C17C7985D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
